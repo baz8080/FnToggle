@@ -14,7 +14,7 @@ You can run this script easily by:
   * Double-click 'Script Menu.menu'
 2. Compile and install the script
   * Open Terminal.app
-  * ```cd /path/to/downloaded/script/
+  * ```cd /path/to/downloaded/script/```
   * Compile: ```osacompile -o Toggle\ Fn\ Keys.scpt Toggle\ Fn\ Keys.applescript```
   * Install: ```cp /path/to/downloaded/script/Toggle\ Fn\ Keys.scpt ~/Library/Scripts/```
 3. Run the script
