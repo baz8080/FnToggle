@@ -12,9 +12,11 @@ You can run this script easily by:
   * Click cmd + shift + g
   * Type '/System/Library/CoreServices/Menu Extras'
   * Double-click 'Script Menu.menu'
-2. Copy the script to your user folder
+2. Compile and install the script
   * Open Terminal.app
-  * Copy script: ```cp /path/to/downloaded/script/Toggle\ Fn\ Keys.applescript ~/Library/Scripts/```
+  * ```cd /path/to/downloaded/script/```
+  * Compile: ```osacompile -o Toggle\ Fn\ Keys.scpt Toggle\ Fn\ Keys.applescript```
+  * Install (create target directory if it doesn't exist): ```cp /path/to/downloaded/script/Toggle\ Fn\ Keys.scpt ~/Library/Scripts/```
 3. Run the script
   * Click the new scripting icon in the menubar
   * You should see 'Toggle Fn Keys' at the bottom
