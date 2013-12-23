@@ -16,7 +16,7 @@ You can run this script easily by:
   * Open Terminal.app
   * ```cd /path/to/downloaded/script/```
   * Compile: ```osacompile -o Toggle\ Fn\ Keys.scpt Toggle\ Fn\ Keys.applescript```
-  * Install: ```cp /path/to/downloaded/script/Toggle\ Fn\ Keys.scpt ~/Library/Scripts/```
+  * Install (create target directory if it doesn't exist): ```cp /path/to/downloaded/script/Toggle\ Fn\ Keys.scpt ~/Library/Scripts/```
 3. Run the script
   * Click the new scripting icon in the menubar
   * You should see 'Toggle Fn Keys' at the bottom
